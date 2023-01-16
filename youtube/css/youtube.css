@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.left-section {
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+
+}
+
+.left-section img {
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+
+
+}
+
+.center {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.center form button:hover {
+    background-color: #f0f0f0;
+}
+
+
+.center form {
+    height: 42px;
+    width: 628px;
+    display: flex;
+}
+
+.center form input {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 2px 0 0 2px;
+    font-size: 1.6rem;
+}
+
+.center form button {
+    width: 65px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 2px 2px 0;
+    background-color: #f7f7f7;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.center .mic {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    background-color: #f0f0f0;
+    border:1px solid #d3d3d3 ;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.right-section a {
+    text-decoration: none;
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    overflow: auto;
+    height: 100%;
+    background-color: white;
+}
+
+.aside a:hover {
+    background-color: rgb(206, 201, 201);
+}
+
+.aside {
+width: 100%;
+    display: flex;
+    margin-right: 15px;
+    padding: 15px;
+    align-items: center;
+}
+
+.aside a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    align-items: center;
+padding: 10px 15px;
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+.aside span{
+    margin-left: 25px;
+    font-size: 1.6rem;
+    line-height: 2em;
+    font-weight: 400;
+    color: black;
+}
+/* hr{
+    border: none;
+    width: 1px;
+    color: black;
+} */
+.area {
+    background-color: rgb(241, 240, 236);
+    height: 110rem;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    height: calc(100vh - 55px);
+    background-color: #f8f8f8;
+}
+
+.sub img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.sub .subb {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.subbb {
+    display: flex;
+    margin-right: 5px;
+    padding: 10px;
+}
+.subbb p{
+    font-size: 18px;
+}
+
+.area .card img {
+    height: 230px;
+}
+.card img:hover{
+transform: translateX(5px);
+cursor: pointer;
+}
